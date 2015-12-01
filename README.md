@@ -7,11 +7,21 @@
 
 Hodor is a simple solution to localize your iOS App quickly, you can store language settings in local, and change the language in app, Just like wechat.
 
-You can add more languages support in your app, just create a language tableview controller.
+You can add more languages support in your app by create a new Localizations row in Project.
 
 ## Screentshots
 
 ![](http://ww3.sinaimg.cn/large/76dc7f1bjw1eykaqnh42dj21kw12mq6w.jpg)
+
+## Usage
+
+Simple usage like this:
+
+> kLang(@"Hello World")
+
+and it will display `Hello World` in the English environment, `你好 世界` in the Simplified Chinese environment.
+
+Check the code in Xcode if you want to know more details.
 
 ## Contributing
 
