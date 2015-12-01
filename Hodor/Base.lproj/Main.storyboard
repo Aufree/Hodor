@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="o4g-CI-SP6">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BoL-ye-XJN">
+                                <rect key="frame" x="0.0" y="241" width="375" height="186"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coca_cola" translatesAutoresizingMaskIntoConstraints="NO" id="7eo-56-gAo">
+                                        <rect key="frame" x="72.5" y="86" width="230.5" height="80"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="80" id="4dw-mn-cvX"/>
+                                            <constraint firstAttribute="width" secondItem="7eo-56-gAo" secondAttribute="height" multiplier="2.88:1" id="qhX-Ye-97f"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello World" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ETb-Wv-RkX">
+                                        <rect key="frame" x="20" y="20" width="335" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="66W-81-nQD"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="186" id="3Ld-dY-YKQ"/>
+                                    <constraint firstAttribute="trailing" secondItem="ETb-Wv-RkX" secondAttribute="trailing" constant="20" id="Ph0-j7-Ktv"/>
+                                    <constraint firstItem="ETb-Wv-RkX" firstAttribute="leading" secondItem="BoL-ye-XJN" secondAttribute="leading" constant="20" id="Qgk-VN-A9g"/>
+                                    <constraint firstItem="7eo-56-gAo" firstAttribute="top" secondItem="ETb-Wv-RkX" secondAttribute="bottom" constant="45" id="Rw0-NA-ZzS"/>
+                                    <constraint firstItem="ETb-Wv-RkX" firstAttribute="top" secondItem="BoL-ye-XJN" secondAttribute="top" constant="20" id="Ubu-Hd-3Hd"/>
+                                    <constraint firstItem="7eo-56-gAo" firstAttribute="centerX" secondItem="BoL-ye-XJN" secondAttribute="centerX" id="pwE-wV-hZA"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="BoL-ye-XJN" secondAttribute="trailing" id="CQy-fa-nV2"/>
+                            <constraint firstItem="BoL-ye-XJN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="T1f-kD-Yfw"/>
+                            <constraint firstItem="BoL-ye-XJN" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="hAL-n1-1ck"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="aQP-C4-x1p"/>
+                    <connections>
+                        <outlet property="colaImageView" destination="7eo-56-gAo" id="lQ0-nK-Qqj"/>
+                        <outlet property="helloWorldLabel" destination="ETb-Wv-RkX" id="qZx-Pl-JuG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="902.5" y="373.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="p4Q-lR-nJ9">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="o4g-CI-SP6" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="cYi-Fh-SYL">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="i3b-O2-fDu"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VKY-0C-gDu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="364" y="374"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="coca_cola" width="507" height="177"/>
+    </resources>
+</document>

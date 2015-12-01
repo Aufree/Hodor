@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  Hodor
+
+  Created by Aufree on 12/1/15.
+  Copyright © 2015 aufree. All rights reserved.
+*/
+
+"I18n Demo"   = "国际化样本";
+"Toggle"      = "切换";
+"Hello World" = "你好世界";
+"coca_cola"   = "coca_cola_ch_hans";
