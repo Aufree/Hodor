@@ -3,7 +3,7 @@
 //  Hodor
 //
 //  Created by Aufree on 12/1/15.
-//  Copyright © 2015 aufree. All rights reserved.
+//  Copyright © 2015 The EST Group. All rights reserved.
 //
 
 #import "ViewController.h"

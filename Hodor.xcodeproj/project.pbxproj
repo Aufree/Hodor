@@ -462,7 +462,7 @@
 				INFOPLIST_FILE = Hodor/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = github.aufree.Hodor;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.est-group.Hodor";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -474,7 +474,7 @@
 				INFOPLIST_FILE = Hodor/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = github.aufree.Hodor;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.est-group.Hodor";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -485,7 +485,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = HodorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = github.aufree.HodorTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.est-group.HodorTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hodor.app/Hodor";
 			};
@@ -497,7 +497,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = HodorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = github.aufree.HodorTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.est-group.HodorTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hodor.app/Hodor";
 			};
@@ -508,7 +508,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = HodorUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = github.aufree.HodorUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.est-group.HodorUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = Hodor;
 				USES_XCTRUNNER = YES;
@@ -520,7 +520,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = HodorUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = github.aufree.HodorUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.est-group.HodorUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = Hodor;
 				USES_XCTRUNNER = YES;
@@ -546,6 +546,7 @@
 				5643E2281C0D764E005D1A1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5643E2291C0D764E005D1A1C /* Build configuration list for PBXNativeTarget "HodorTests" */ = {
 			isa = XCConfigurationList;
@@ -554,6 +555,7 @@
 				5643E22B1C0D764E005D1A1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5643E22C1C0D764E005D1A1C /* Build configuration list for PBXNativeTarget "HodorUITests" */ = {
 			isa = XCConfigurationList;
@@ -562,6 +564,7 @@
 				5643E22E1C0D764E005D1A1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

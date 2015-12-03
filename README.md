@@ -9,6 +9,8 @@ Hodor is a simple solution to localize your iOS App quickly, you can store langu
 
 You can add more languages support in your app by create a new Localizations row in Project.
 
+This project is made with love by [The EST Group](http://est-group.org/).
+
 ## Screentshots
 
 ![](http://ww3.sinaimg.cn/large/76dc7f1bjw1eykaqnh42dj21kw12mq6w.jpg)

@@ -2,7 +2,7 @@
 //  Language.h
 //
 //  Created by Aufree on 12/5/15.
-//  Copyright (c) 2015 Aufree. All rights reserved.
+//  Copyright (c) 2015 The EST Group. All rights reserved.
 //
 
 #import "Language.h"
