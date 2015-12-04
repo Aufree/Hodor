@@ -31,6 +31,14 @@ Check the code in Xcode if you want to know more details.
 
 Thank you for your interest in contributing to Hodor! Your ideas for improving this app are greatly appreciated. The best way to contribute is by submitting a pull request. I'll do my best to respond to you as soon as possible. You can also [submit a new GitHub issue](https://github.com/Aufree/Hodor/issues/new) if you find bugs or have questions.
 
+## License
+
+Copyright (c) 2015 Paul King
+
+---------------
+
+Released under the [MIT license](https://github.com/Aufree/Hodor/blob/master/LICENSE)
+
 # 中文文档
 
 Hodor 是一套可让你的应用快速支持本地化的解决方案, 允许你在应用内直接更改应用语言而无需退出应用, 类似微信.
@@ -57,10 +65,10 @@ Hodor 是一套可让你的应用快速支持本地化的解决方案, 允许你
 
 感谢您有兴趣参与 Hodor 的开发, 您可以在本地修改此项目, 经测试后无任何问题即可给我提交 Pull Request, 我会定期查看并 Merge, 若有其它问题, 可通过提交 [issue](https://github.com/Aufree/Hodor/issues/new) 来让我知道.
 
-## License
+## 许可证
 
 Copyright (c) 2015 Paul King
 
 ---------------
 
-Released under the [MIT license](https://github.com/Aufree/Hodor/blob/master/LICENSE)
+使用 [MIT 许可证](https://github.com/Aufree/Hodor/blob/master/LICENSE) 发行.
