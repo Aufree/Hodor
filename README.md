@@ -11,7 +11,7 @@ You can add more languages support in your app by create a new Localizations row
 
 > Made With :heart:  By [The EST Group](http://est-group.org/).
 
-## [中文文档](https://github.com/Aufree/Hodor#中文文档)
+## [中文文档](https://github.com/Aufree/Hodor#中文文档-1)
 
 ## Screentshots
 
