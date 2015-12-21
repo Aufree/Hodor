@@ -3,13 +3,18 @@
 <p align="center">
 <a href="https://weibo.com/jinfali"><img src="https://img.shields.io/badge/contact-@Aufree-orange.svg?style=flat"></a>
 <a href="https://github.com/Aufree/Enesco/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green.svg?style=flat"></a>
+<a href="https://github.com/Aufree"><img src="https://ga-beacon.appspot.com/UA-70965318-2/Hodor/readme" alt="GA"></a>
 </p>
 
 Hodor is a simple solution to localize your iOS App quickly, allow you to change language of project in-app, Just like WeChat.
 
-You can add more languages support in your app by create a new Localizations row in Project.
-
 > Made With :heart:  By [The EST Group](http://est-group.org/).
+
+You can add more languages support in your app by create a new `Localizations` row in Project.
+
+Just like this:
+
+![](http://ww2.sinaimg.cn/large/76dc7f1bjw1ez7j1eah8yj20j70dz75s.jpg)
 
 ## [中文文档](https://github.com/Aufree/Hodor#中文文档-1)
 
@@ -46,6 +51,10 @@ Hodor 是一套可让你的应用快速支持本地化的解决方案, 允许你
 > 开源自 [The EST Group](http://est-group.org/) 团队.
 
 你可通过创建新的 `Localizations` 行来添加更多语言支持.
+
+就像这样:
+
+![](http://ww2.sinaimg.cn/large/76dc7f1bjw1ez7j1eah8yj20j70dz75s.jpg)
 
 ## 截图
 
