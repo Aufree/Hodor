@@ -56,6 +56,12 @@ Hodor 是一套可让你的应用快速支持本地化的解决方案, 允许你
 
 > 开源自 [The EST Group](http://est-group.org/) 团队.
 
+## 你或许对我其它项目感兴趣
+
+* [PHPHub-iOS](https://github.com/aufree/phphub-ios) PHPHub 官方 iOS 应用, 完美适配 iPhone 和 iPad.
+* [ESTMusicPlayer](https://github.com/Aufree/ESTMusicPlayer) 一款优雅简洁的 iOS 音乐播放器.
+* [ESTCollectionViewDropDownList](https://github.com/Aufree/ESTCollectionViewDropDownList) 一款类似虾米的 iOS 菜单筛选列表.
+
 你可通过创建新的 `Localizations` 行来添加更多语言支持.
 
 就像这样:
