@@ -6,7 +6,7 @@
 <a href="https://github.com/Aufree"><img src="https://ga-beacon.appspot.com/UA-70965318-2/Hodor/readme" alt="GA"></a>
 </p>
 
-Hodor is a simple solution to localize your iOS App quickly, allow you to change language of project in-app, Just like WeChat.
+Hodor is a simple solution to localize your iOS App quickly, allow you to change language of project in-app without quiting the app, Just like WeChat.
 
 > Made With :heart:  By [The EST Group](http://est-group.org/).
 
