@@ -12,7 +12,7 @@ Hodor is a simple solution to localize your iOS App quickly, allow you to change
 
 ## You may interested in my other project
 
-* [PHPHub-iOS](https://github.com/aufree/phphub-ios) PHPHub for iOS is the universal iPhone and iPad application for PHPHub.
+* [PHPHub-iOS](https://github.com/aufree/phphub-ios)is the universal iPhone and iPad application for PHPHub.
 * [ESTMusicPlayer](https://github.com/Aufree/ESTMusicPlayer) An elegant and simple iOS music player.
 * [ESTCollectionViewDropDownList](https://github.com/Aufree/ESTCollectionViewDropDownList) A demo implementation of a drop down tag list view for iOS.
 
