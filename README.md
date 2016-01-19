@@ -24,7 +24,7 @@ Just like this:
 
 ## [中文文档](https://github.com/Aufree/Hodor#中文文档-1)
 
-## Screentshots
+## Screenshots
 
 ![](http://ww3.sinaimg.cn/large/76dc7f1bjw1eykaqnh42dj21kw12mq6w.jpg)
 
